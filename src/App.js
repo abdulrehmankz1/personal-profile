@@ -27,22 +27,6 @@ const App = () => {
       '/assets/images/eduport-3.png',
       '/assets/images/eduport-4.png',
     ],
-    netflix: [
-      '/assets/images/netflix-1.png',
-      '/assets/images/netflix-2.png',
-      '/assets/images/netflix-3.png',
-      '/assets/images/netflix-4.png',
-      '/assets/images/netflix-5.png',
-      '/assets/images/netflix-6.png',
-      '/assets/images/netflix-7.png',
-      '/assets/images/netflix-8.png',
-      '/assets/images/netflix-9.png',
-    ],
-    authentication: [
-      '/assets/images/nextjs-authentication-1.png',
-      '/assets/images/nextjs-authentication-2.png',
-      '/assets/images/nextjs-authentication-3.png',
-    ],
     sectech: [
       '/assets/images/sectech-1.png',
       '/assets/images/sectech-2.png',

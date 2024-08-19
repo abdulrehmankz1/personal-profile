@@ -30,29 +30,6 @@ const PortfolioSection = ({ onProjectClick, projectImages }) => {
           </h2>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col portfolio_item" data-aos="fade-right" onClick={() => onProjectClick(projectImages.netflix)}>
-          <div class="card border-0 portfolio_item_inner">
-            <img src="/assets/images/netflix-1.png" style={{ height: '400px' }} class="card-img-top rounded-3" alt="project-img" />
-            <ul className="portfolio_categories">
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </div>
-          <h2><a href="https://netflix-ui-clone-six.vercel.app/index.html" target="_blank" rel="noopener noreferrer" className="text-light">Netflix UI Clone</a></h2>
-        </div>
-        <div class="col portfolio_item" data-aos="fade-left" onClick={() => onProjectClick(projectImages.authentication)}>
-          <div class="card border-0 portfolio_item_inner">
-            <img src="/assets/images/nextjs-authentication-1.png" style={{ height: '400px' }} class="card-img-top rounded-3" alt="project-img" />
-            <ul className="portfolio_categories">
-              <li>Next.js</li>
-              <li>Tailwind CSS</li>
-            </ul>
-          </div>
-          <h2><a href="https://nextjs-authentication-project.vercel.app" target="_blank" rel="noopener noreferrer" className="text-light">Next.js Authentication Project</a></h2>
-        </div>
-      </div>
-
       <div class="row pe-xl-5 pe-lg-5 pe-0" data-aos="fade-right">
         <div class="col portfolio_item" onClick={() => onProjectClick(projectImages.sectech)}>
           <div class="card border-0 portfolio_item_inner">
